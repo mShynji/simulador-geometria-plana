@@ -1,0 +1,50 @@
+/* classes */
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flexbox {
+    width: 70%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbox {
+    width: 15%;
+    margin: 1%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tools {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.tool-item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.tool {
+    flex: 1 1 auto;
+}
+
+/* ids */
+#plano-cartesiano {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}

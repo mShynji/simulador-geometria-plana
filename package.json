@@ -1,0 +1,24 @@
+{
+  "name": "simulador-geometria-plana",
+  "version": "1.0.0",
+  "description": "Ferramenta para auxílio de estudantes aprendendo plano cartesiano e geometria plana.",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mira-oza/simulador-geometria-plana.git"
+  },
+  "author": "Shynji Robbie Miyasato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mira-oza/simulador-geometria-plana/issues"
+  },
+  "homepage": "https://github.com/mira-oza/simulador-geometria-plana#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

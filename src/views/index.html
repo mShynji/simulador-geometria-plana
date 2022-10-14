@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- básico -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Geometria Plana</title>
+
+    <!-- scripts -->
+    <script type="module" src="/public/js/functions.js"></script>
+
+    <!-- css -->
+    <link href="/public/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="content">
+        <!-- plano cartesiano -->
+        <div class="flexbox">
+            <canvas id="plano-cartesiano" width="800" height="600"></canvas>
+        </div>
+
+        <!-- tools -->
+        <div class="toolbox">
+            <div id="basic-tools">
+                <h2 class="section-title">ferramentas</h2>
+                <ul class="tools">
+                    <li class="tool-item"><button class="tool">ponto</button></li>
+                    <li class="tool-item"><button class="tool">linha</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
