@@ -1,7 +1,7 @@
 # Simulador de Geometria Plana
 
 ## Descrição
-Com o principal objetivo de aprender mais sobre Programação Web utilizando JavaScript, desenvolvi uma ferramenta, inspirada no (site)[https://github.com/WilkerSebastian/pontos-notaveis-triangulo] de Wilker Sebastian Afonso Pereira que calcula pontos notáveis de triângulos, que simula o primeiro quadrante de um ponto cartesiano.
+Com o principal objetivo de aprender mais sobre Programação Web utilizando JavaScript, desenvolvi uma ferramenta, inspirada no [site](https://github.com/WilkerSebastian/pontos-notaveis-triangulo) de Wilker Sebastian Afonso Pereira que calcula pontos notáveis de triângulos, que simula o primeiro quadrante de um ponto cartesiano.
 
 
 ## Instalação
