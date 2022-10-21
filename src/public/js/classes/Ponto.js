@@ -24,9 +24,6 @@ export class Ponto {
         if((p1.X-p2.X <= 4 && p1.X-p2.X >= -4)) {
             if((p1.Y-p2.Y <= 4 && p1.Y-p2.Y >= -4))
                 return true
-            
-            else
-                return false;
         }
 
         return false;

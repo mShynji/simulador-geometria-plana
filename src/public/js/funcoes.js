@@ -12,12 +12,17 @@ export let adicionarPonto = (e) => {
     console.log(plano.pontos);
 }
 
+export let limparPontos = () => {
+    pontos = [];
+    console.log('eee');
+}
+
 export let adicionarLinha = (e) => {
     pontos.push(plano.addPonto(e.clientX-canvas.offsetLeft, e.clientY-canvas.offsetTop));
 
     if(pontos.length == 2) {
-        
-        pontos = [];
+        plano.addLinha(pontos[0], pontos[1]);
+        pontos.shift();
     }
 
     console.log(pontos);

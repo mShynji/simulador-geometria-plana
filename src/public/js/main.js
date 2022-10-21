@@ -1,7 +1,7 @@
 // main.js
 
 // imports
-import { adicionarPonto, adicionarLinha } from './funcoes.js'
+import { adicionarPonto, limparPontos, adicionarLinha } from './funcoes.js'
 
 // variáveis
 let ferramenta = ''; // variável para guardar qual ferramenta está sendo usada
@@ -24,6 +24,7 @@ window.ferramentaLinha = () => {
     let canvas = document.getElementById('plano-cartesiano');
 
     if(ferramenta != 'linha') {
+        limparPontos();
         ferramenta = 'linha';
         canvas.removeEventListener('click', adicionarPonto, false);
         canvas.addEventListener('click', adicionarLinha, false);
