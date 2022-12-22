@@ -10,7 +10,7 @@ Com o principal objetivo de aprender mais sobre Programação Web utilizando Jav
 
 ### Inicializando
 ```bash
-    ~$ git clone https://github.com/mira-oza/simulador-geometria-plana.git
+    ~$ git clone https://github.com/mShynji/simulador-geometria-plana.git
     ~$ cd simulador-geometria-plana/
     ~$ npm i && npm run dev
 ```
